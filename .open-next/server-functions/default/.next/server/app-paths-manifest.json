@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/enable-draft/route": "app/api/enable-draft/route.js",
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/icon2.png/route": "app/icon2.png/route.js",
+  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/[locale]/[...notFound]/page": "app/[locale]/[...notFound]/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/[slug]/page": "app/[locale]/[slug]/page.js"
+}
