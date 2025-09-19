@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
-yarn type-check && yarn lint-staged
+/home/user/.global_modules/bin/yarn lint-staged
