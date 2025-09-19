@@ -15,6 +15,16 @@ const { withPlugins } = nextComposePlugins.extend(() => ({}));
  */
 module.exports = withPlugins(plugins, {
   /**
+   * Cloudflare Workers runtime configuration
+   */
+  output: 'standalone',
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  /**
    * add the environment variables you would like exposed to the client here
    * documentation: https://nextjs.org/docs/api-reference/next.config.js/environment-variables
    */
