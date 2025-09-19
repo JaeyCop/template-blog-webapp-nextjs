@@ -4,6 +4,7 @@
   "private": true,
   "engines": {
     "node": ">=18"
+    "npm": "Please use Yarn"
   },
   "scripts": {
     "prepare": "husky install",
