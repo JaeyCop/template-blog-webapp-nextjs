@@ -10,7 +10,7 @@
     "prepare": "husky install",
     "dev": "next dev",
     "build": "next build",
-    "build:cloudflare": "next build --no-lint && vercel build && npx @cloudflare/next-on-pages --skip-build",
+  "build:cloudflare": "next build --no-lint && npx @cloudflare/next-on-pages",
     "deploy:cloudflare": "wrangler pages deploy .vercel/output/static --project-name=template-blog-webapp-nextjs",
     "preview:cloudflare": "yarn build:cloudflare && yarn deploy:cloudflare",
     "start": "next start",
